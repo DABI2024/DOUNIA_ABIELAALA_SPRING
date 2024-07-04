@@ -16,19 +16,19 @@ Avant de commencer, assurez-vous d'avoir installé les éléments suivants :
 
 1. Clonez le dépôt depuis GitHub :
    ```bash
-   git clone https://github.com/votre-utilisateur/votre-repo.git
+   git clone https://github.com/DABI2024/DOUNIA_ABIELAALA_SPRING.git
    ```
 
 2. Accédez au répertoire du projet :
    ```bash
-   cd votre-repo
+   cd DOUNIA_ABIELAALA_SPRING
    ```
 
 3. Configurez la base de données dans le fichier `src/main/resources/application.properties` :
    ```properties
-   spring.datasource.url=jdbc:mysql://localhost:3306/votre_base_de_donnees
-   spring.datasource.username=votre_utilisateur
-   spring.datasource.password=votre_mot_de_passe
+   spring.datasource.url=jdbc:mysql://localhost:3306/SPRING_DB
+   spring.datasource.username=root
+   spring.datasource.password=123456
    spring.jpa.hibernate.ddl-auto=update
    ```
 
